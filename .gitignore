@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+*.local.json
+
+# Auth token caches (MSAL, OAuth)
+*_msal_cache.json
+*.token.json
+
+# Temporary working files
+_temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/settings.json
+
+# Large binary exports (keep .md reports, not source xlsx)
+*.xlsx
+*.xls
+*.csv
+
+# Python bytecode
+__pycache__/
+*.pyc
